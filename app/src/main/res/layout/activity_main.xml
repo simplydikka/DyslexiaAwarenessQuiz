@@ -98,6 +98,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/dysgraphia_what_is_button"
                 style="@style/WhatIsButtons"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -105,6 +106,7 @@
                 android:text="@string/dysgraphia_what_is_button" />
 
             <Button
+                android:id="@+id/dysgraphia_test_button"
                 style="@style/TestButtons"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -132,6 +134,7 @@
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/pullList"
                 style="@style/TestButtons"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.dyslexiaawarenessquiz">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -33,6 +35,19 @@
         <activity
             android:name=".DyscalculiaTestActivity"
             android:theme="@style/AppTheme.CustomTheme"></activity>
+
+        <activity
+            android:name=".DysgraphiaTestActivity"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+
+        <activity
+            android:name=".DysgraphiaWhatIsActivity"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+
+        <activity
+            android:name=".PullListActivity"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+
 
     </application>
 
