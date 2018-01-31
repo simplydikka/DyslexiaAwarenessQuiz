@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="IntroText" parent="android:TextAppearance.Small">
+        <item name="android:layout_marginTop">@dimen/dimen_16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+
+    </style>
+
+    <style name="WhatIsButtons">
+
+        <item name="android:theme">@style/WhatIsButtons</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:textColor">@color/buttons_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="TestButtons" parent="WhatIsButtons">
+
+        <item name="android:theme">@style/TestButtons</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/buttons_text</item>
+    </style>
+
+    <style name="AppTheme.CustomTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+
+</resources>
