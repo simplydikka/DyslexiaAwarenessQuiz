@@ -20,7 +20,7 @@ public class DyslexiaWhatIsActivity extends Activity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int) (width * .9), (int) (height * .7));
+        getWindow().setLayout((int) (width * .9), (int) (height * .8));
 
 
     }

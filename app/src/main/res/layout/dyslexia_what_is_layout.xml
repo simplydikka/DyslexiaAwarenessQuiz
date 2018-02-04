@@ -20,6 +20,7 @@
             android:text="@string/dyslexia_header" />
 
         <TextView
+            style="@style/GenericText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_16dp"
@@ -27,6 +28,7 @@
             android:text="@string/dyslexia_what_is_01" />
 
         <TextView
+            style="@style/GenericText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_16dp"
@@ -34,6 +36,7 @@
             android:text="@string/dyslexia_what_is_02" />
 
         <TextView
+            style="@style/GenericText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_32dp"

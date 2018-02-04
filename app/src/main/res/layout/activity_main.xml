@@ -135,14 +135,14 @@
 
             <Button
                 android:id="@+id/pullList"
-                style="@style/TestButtons"
+                style="@style/BottomButtons"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:text="@string/list_of_professionals_button" />
 
             <Button
-                style="@style/WhatIsButtons"
+                style="@style/BottomButtons"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"

@@ -20,6 +20,7 @@
             android:text="@string/dyscalculia_header" />
 
         <TextView
+            style="@style/GenericText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_16dp"
@@ -27,6 +28,7 @@
             android:text="@string/dyscalculia_what_is_01" />
 
         <TextView
+            style="@style/GenericText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_16dp"
@@ -34,11 +36,12 @@
             android:text="@string/dyscalculia_what_is_02" />
 
         <TextView
+            style="@style/GenericText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/dimen_32dp"
             android:layout_weight="1"
-            android:text="@string/dyscalculia_what_is_03" />
+            android:text="@string/dyscalculia_what_is_list" />
 
     </LinearLayout>
 

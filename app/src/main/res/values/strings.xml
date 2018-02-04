@@ -1,13 +1,13 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Dyslexia Awareness Quizz</string>
     <string name="banner_text_description">разбери ме. помогни ми. научи ме.</string>
     <string name="dyslexia_intro">Дислексията НЕ Е заболяване и НЕ Е увреждане. Хората с дислексия имат различно възприятие, те опознават света около себе си по различен начин.
     Децата с дислексия се учат да пишат, четат или смятат като всяко друго дете - чрез упражнения, просто процесът е специфичен спрямо нуждите им.</string>
-    <string name="dyslexia_what_is_button">какво е дислексия</string>
+    <string name="dyslexia_what_is_button">дислексия</string>
     <string name="make_test_button">тест</string>
-    <string name="dyscalculia_what_is_button">какво е дискалкулия</string>
-    <string name="dysgraphia_what_is_button">какво е дисграфия</string>
-    <string name="list_of_professionals_button">списък на специалити по градове</string>
+    <string name="dyscalculia_what_is_button">дискалкулия</string>
+    <string name="dysgraphia_what_is_button">дисграфия</string>
+    <string name="list_of_professionals_button">списък на специалисти по градове</string>
     <string name="additional_info_button">допълнителна информация и ресурси</string>
     <string name="list_description"><b><a href="http://www.logopedia.bg">Логопедия.БГ</a></b> предлага на потребителите си списък със специалисти в България, към които можете да се обърнете при нужда от консултация. </string>
     <string name="list_title">намери специалист</string>
@@ -23,7 +23,51 @@
 
     <string name="dyscalculia_header">специфично разтройство на аритметичните умения</string>
     <string name="dyscalculia_what_is_01">Дискалкулията обхваща специфично нарушение на аритметичните умения, което не може да бъде обяснено с умствено изоставане или неадекватно обучение в училище.</string>
-    <string name="dyscalculia_what_is_02">Нарушението засяга предимно умението за извършване на основните аритметични действия:</string>
-    <string name="dyscalculia_what_is_03">събиране, изваждане, умножение и деление, както и по-абстрактните математически умения, свързани с алгебра, тригонометрия, геометрия.</string>
+    <string name="dyscalculia_what_is_02">Нарушението засяга предимно умението за извършване на основните аритметични действия, както и на по-абстракти такива, включително:</string>
+    <string name="dyscalculia_what_is_list">
+         <item>• събиране;</item>
+         <item>\n• изваждане;</item>
+         <item>\n• умножение и деление;</item>
+         <item>\n• алгебра;</item>
+         <item>\n• тригонометрия;</item>
+         <item>\n• геометрия;</item>
+         </string>
+
+
+    <string name="dysgraphia_header">специфично разтройство на правописа</string>
+    <string name="dysgraphia_what_is_01">Основният признак при това разстройство е специфично и значимо нарушение на развитието на уменията за правопис при липса на специфично разстройство на четенето, което не може да бъде обяснено с ниска умствена възраст на детето, с проблеми в остротата на зрението или с неадекватно обучение в училище. </string>
+    <string name="dysgraphia_what_is_02">Дисграфията засяга както способността за произнасяне на буквите в думата, така и правилното изписване на думите.</string>
+    <string name="dysgraphia_what_is_03">Дисграфията може да се прояви като:</string>
+
+    <string name="dysgraphia_what_is_list">
+         <item>• бавно писане;</item>
+         <item>\n• неправилно изписване на буквите и цифрите;</item>
+         <item>\n• много силен или много слаб натиск при писане;</item>
+         <item>\n• много големи или много ситни графични знаци;</item>
+         <item>\n• огледално писане;</item>
+         <item>\n• много голям наклон;</item>
+         <item>\n• нечетлив почерк;</item>
+         <item>\n• затруднения в пространственото оформление на текста;</item>
+         <item>\n• невъзможност да се следва реда;</item>
+         </string>
+    <string name="dyslexia_questions_intro">Въпросникът по-долу се отнася до начина, по който детето учи и преработва информация и е създаден в помощ на инедтефицирането на евентуален проблем.
+        \n\nТова не е поставяне на диагноза!
+        \n\nПри затруднения с ученето винаги се консултирайте с учителя
+    и педиатъра на детето, за да се уверите, че проблемът не е в метода на преподаване или поради здравословни проблеми като нарушение на слуха или зрението.
+       \n\nВинаги се консултирайте със специалист, който да
+    направи по-задълбочен анализ вместо да поставяте сами диагноза!</string>
+    <string name="child_name_form">Име на детето</string>
+    <string name="name_disclaimer">Забележка: Името на детето се използва само за удобство при попълване на теста. НЕ запазваме или използваме имената по никакъв начин. Ако не желаете да използвате истински имена, това няма да повлияе на теста.</string>
+    <string name="dyslexia_question_one">В ежедневието  <xliff:g example="Amy" id="savedName">%1$s</xliff:g> изключително буден и заинтересован:</string>
+    <string name="dyslexia_question_two">Изцяло отдаден на игрите:</string>
+    <string name="answer_directions_yes">Да</string>
+    <string name="answer_directions_no">Не</string>
+    <string name="questions">Въпроси</string>
+    <string name="dyslexia_question_three">Pазсеян, откъснат от действителността:</string>
+    <string name="dyslexia_question_four">Особена или неестествена стойкта на тялото:</string>
+    <string name="send_as_email_checkbox">Искам да изпратя резултата като имейл</string>
+    <string name="add_resources_to_email_checkbox">Искам да добавя списък с ресурси в текста на имейла</string>
+    <string name="get_score_button">Резултат</string>
+    <string name="score_string">Резултат: </string>
 
 </resources>
