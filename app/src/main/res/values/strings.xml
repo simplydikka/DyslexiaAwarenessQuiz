@@ -58,7 +58,7 @@
     направи по-задълбочен анализ вместо да поставяте сами диагноза!</string>
     <string name="child_name_form">Име на детето</string>
     <string name="name_disclaimer">Забележка: Името на детето се използва само за удобство при попълване на теста. НЕ запазваме или използваме имената по никакъв начин. Ако не желаете да използвате истински имена, това няма да повлияе на теста.</string>
-    <string name="dyslexia_question_one">В ежедневието  <xliff:g example="Amy" id="savedName">%1$s</xliff:g> изключително буден и заинтересован:</string>
+    <string name="dyslexia_question_one">В ежедневието  <xliff:g example="Amy" id="savedName">...</xliff:g> изключително буден и заинтересован:</string>
     <string name="dyslexia_question_two">Изцяло отдаден на игрите:</string>
     <string name="answer_directions_yes">Да</string>
     <string name="answer_directions_no">Не</string>
@@ -68,6 +68,6 @@
     <string name="send_as_email_checkbox">Искам да изпратя резултата като имейл</string>
     <string name="add_resources_to_email_checkbox">Искам да добавя списък с ресурси в текста на имейла</string>
     <string name="get_score_button">Резултат</string>
-    <string name="score_string">Резултат: </string>
+    <string name="score_string">Резултат: <xliff:g example="Amy" id="savedName">%1$s</xliff:g></string>
 
 </resources>

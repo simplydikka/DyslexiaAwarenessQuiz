@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
@@ -24,10 +26,6 @@ public class DyslexiaTestActivity extends Activity {
     RadioButton radioButtonTwoYes, radioButtonTwoNo;
     RadioButton radioButtonThreeYes, radioButtonThreeNo;
     RadioButton radioButtonFourYes, radioButtonFourNo;
-    String selectedAnswerOne;
-    String selectedAnswerTwo;
-    String selectedAnswerThree;
-    String selectedAnswerFour;
     Button submit;
     int score = 0;
 
@@ -43,9 +41,23 @@ public class DyslexiaTestActivity extends Activity {
 
         getWindow().setLayout((int) (width * .9), (int) (height * .8));
         childName = (EditText) findViewById(R.id.name_input);
-        savedName = childName.getText().toString();
-        String formatted = getString(R.string.dyslexia_question_one, savedName);
+        childName.addTextChangedListener(new TextWatcher() {
 
+            public void afterTextChanged(Editable s) {
+
+                String question = getString(R.string.dyslexia_question_one);
+                String sWithName =
+                        question.replace("...", childName.getText().toString());
+                childName.setText(sWithName);
+
+            }
+
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
+
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+            }
+        });
         radioButtonOneYes = (RadioButton) findViewById(R.id.radioButtonOneYes);
         radioButtonOneNo = (RadioButton) findViewById(R.id.radioButtonOneNo);
         radioButtonTwoYes = (RadioButton) findViewById(R.id.radioButtonTwoYes);
@@ -62,10 +74,8 @@ public class DyslexiaTestActivity extends Activity {
     public int onRadioButtonClicked(View view) {
 
         if (radioButtonOneYes.isChecked()) {
-            score = 1;
+            score += 1;
 
-        } else {
-            score = 0;
         }
 
         if (radioButtonTwoYes.isChecked()) {
@@ -84,11 +94,7 @@ public class DyslexiaTestActivity extends Activity {
     }
 
     public String updateScore() {
-
-        childName = (EditText) findViewById(R.id.name_input);
-        savedName = childName.getText().toString();
-        String summaryMessage = getString(R.string.score_string, savedName);
-        summaryMessage = getString(R.string.score_string) + " " + score;
+        String summaryMessage = getString(R.string.score_string, savedName) + " " + score;
         return summaryMessage;
     }
 
