@@ -8,12 +8,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <TextView
-        style="@style/IntroText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/dyslexia_questions_intro" />
+
+        <TextView
+            style="@style/IntroText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dyslexia_questions_intro" />
 
         <View
             android:id="@+id/divider01"
@@ -29,18 +30,21 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/child_name_form" />
 
             <EditText
                 android:id="@+id/name_input"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:hint="" />
+                android:hint="@string/child_name_hint" />
+
+            <Button
+                android:id="@+id/save_name_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:onClick="saveName"
+                android:text="@string/save_name_button" />
 
         </LinearLayout>
 
@@ -131,6 +135,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/question_two"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -146,13 +151,13 @@
                     android:id="@+id/radioButtonTwoYes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked" />
+                    android:onClick="onRadioButtonClickedSecond" />
 
                 <RadioButton
                     android:id="@+id/radioButtonTwoNo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:onClick="onRadioButtonClicked" />
+                    android:onClick="onRadioButtonClickedSecond" />
             </RadioGroup>
 
         </LinearLayout>
@@ -164,6 +169,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/question_three"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -178,12 +184,14 @@
                 <RadioButton
                     android:id="@+id/radioButtonThreeYes"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClickedThird" />
 
                 <RadioButton
                     android:id="@+id/radioButtonThreeNo"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClickedThird" />
             </RadioGroup>
 
         </LinearLayout>
@@ -195,6 +203,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/question_four"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -209,12 +218,16 @@
                 <RadioButton
                     android:id="@+id/radioButtonFourYes"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClickedForth" />
+
 
                 <RadioButton
                     android:id="@+id/radioButtonFourNo"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClickedForth" />
+
             </RadioGroup>
 
         </LinearLayout>
@@ -251,6 +264,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/score_string" />
+            android:text="" />
     </LinearLayout>
 </ScrollView>

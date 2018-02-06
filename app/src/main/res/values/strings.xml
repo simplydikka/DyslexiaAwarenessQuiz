@@ -1,4 +1,4 @@
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xgliff="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Dyslexia Awareness Quizz</string>
     <string name="banner_text_description">разбери ме. помогни ми. научи ме.</string>
     <string name="dyslexia_intro">Дислексията НЕ Е заболяване и НЕ Е увреждане. Хората с дислексия имат различно възприятие, те опознават света около себе си по различен начин.
@@ -9,7 +9,7 @@
     <string name="dysgraphia_what_is_button">дисграфия</string>
     <string name="list_of_professionals_button">списък на специалисти по градове</string>
     <string name="additional_info_button">допълнителна информация и ресурси</string>
-    <string name="list_description"><b><a href="http://www.logopedia.bg">Логопедия.БГ</a></b> предлага на потребителите си списък със специалисти в България, към които можете да се обърнете при нужда от консултация. </string>
+    <string name="list_description"><xliff:g example="sitename" id="siteName"><b><a href="http://www.logopedia.bg">Логопедия.БГ</a></b></xliff:g> предлага на потребителите си списък със специалисти в България, към които можете да се обърнете при нужда от консултация. </string>
     <string name="list_title">намери специалист</string>
     <string name="list_of_all">Списък на всички регистрирани специалисти подредени по азбучен ред според града, в който практикуват, можете да откриете тук:</string>
     <string name="filter_by_city">Филтриране по градове можете да направите като изпишете името на града в търсачката, която се намира тук:</string>
@@ -58,16 +58,25 @@
     направи по-задълбочен анализ вместо да поставяте сами диагноза!</string>
     <string name="child_name_form">Име на детето</string>
     <string name="name_disclaimer">Забележка: Името на детето се използва само за удобство при попълване на теста. НЕ запазваме или използваме имената по никакъв начин. Ако не желаете да използвате истински имена, това няма да повлияе на теста.</string>
-    <string name="dyslexia_question_one">В ежедневието  <xliff:g example="Amy" id="savedName">...</xliff:g> изключително буден и заинтересован:</string>
-    <string name="dyslexia_question_two">Изцяло отдаден на игрите:</string>
+    <string name="dyslexia_question_one">В ежедневието ___ е изключително буден и заинтересован:</string>
+    <string name="dyslexia_question_two">___ е изцяло отдаден на игрите:</string>
     <string name="answer_directions_yes">Да</string>
     <string name="answer_directions_no">Не</string>
     <string name="questions">Въпроси</string>
-    <string name="dyslexia_question_three">Pазсеян, откъснат от действителността:</string>
-    <string name="dyslexia_question_four">Особена или неестествена стойкта на тялото:</string>
+    <string name="dyslexia_question_three"> ___ е разсеян, откъснат от действителността:</string>
+    <string name="dyslexia_question_four">___ има особена или неестествена стойкта на тялото:</string>
     <string name="send_as_email_checkbox">Искам да изпратя резултата като имейл</string>
     <string name="add_resources_to_email_checkbox">Искам да добавя списък с ресурси в текста на имейла</string>
     <string name="get_score_button">Резултат</string>
-    <string name="score_string">Резултат: <xliff:g example="Amy" id="savedName">%1$s</xliff:g></string>
+    <string name="score_string">Резултат: %1$d</string>
+    <string name="save_name_button">Запиши</string>
+    <string name="child_name_hint">Име на Детето/Никнейм</string>
+    <string name="dyslexia_question_one_update2">e изключително буден и заинтересован:</string>
+    <string name="dyslexia_question_one_update1">В ежедневието</string>
+    <string name="dyslexia_question_two_update2">е изцяло отдаден на игрите:</string>
+    <string name="dyslexia_question_three_update2">е разсеян, откъснат от действителността:</string>
+    <string name="dyslexia_question_four_update2">има особена или неестествена стойкта на тялото:</string>
+    <string name="result_message">. При резултат по-висок от 5 ви съветваме да се консултирате със специалист, но не забравяйте да говорите и с учителя на детето.</string>
+    <string name="additional_info_email"><a href="https://goo.gl/F2Q9xU">Какво е дислексията и как да я разпознаем?</a>\n<a href="https://goo.gl/sEFQm8">Стратегии за учене при децата с дислексия.</a>\nНе забравяйте, че този тест не е диагноза. Винаги се посъветвайте първо с учителя на детето, петиатър и логопед преди да приемате, че детето ви има дислексия. </string>
 
 </resources>

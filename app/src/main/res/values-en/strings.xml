@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Dyslexia Awareness Quizz</string>
+    <string name="banner_text_description">understand me. help me. teach me.</string>
+    <string name="dyslexia_intro">"Dyslexia is NOT a disease and is NOT a disability. People with dyslexia have different perceptions, they get to know the world around them differently.     Children with dyslexia learn to write, read or think like any other child - through exercise, the process is specific to their needs. "</string>
+    <string name="dyslexia_what_is_button">dyslexia</string>
+    <string name="make_test_button">test</string>
+    <string name="dyscalculia_what_is_button">dscalculia</string>
+    <string name="dysgraphia_what_is_button">diskography</string>
+    <string name="list_of_professionals_button">list of specialists</string>
+    <string name="additional_info_button">additional info and resources</string>
+    <string name="list_title">find a specialist</string>
+    <string name="list_of_all">A list of all registered specialists listed in alphabetical order according to the city where they are practiced can be found here:</string>
+    <string name="filter_by_city">ou can filter by city by typing the city name in the search engine found here:</string>
+    <string name="full_list_button">full list</string>
+    <string name="search_button">search</string>
+    <string name="disclaimer">Disclaimer: The creators of this app are not in any way associated with the Logopedia.BG owners and are not responsible for the content of the site or its actuality, as they do not claim to accept the ideas and opinions of the Logopedia owners. BG</string>
+    <string name="dyslexia_header">" specific readout disorder"</string>
+    <string name="dyslexia_what_is_01">The underlying sign is a specific and significant impairment in the development of reading skills that can not be explained by the mental age of the child with visual acuity problems or inadequate schooling.</string>
+    <string name="dyslexia_what_is_02">Understanding reading skills, reading skills, reading skills, and tasks requiring reading can be affected. It is often accompanied by spelling difficulties.</string>
+    <string name="dyslexia_what_is_03">Children with specific reading disorders have a history of specific speech and language development disorders. Often, emotional and behavioral disorders are observed.</string>
+    <string name="dyscalculia_header">specific arithmetic skill disorder</string>
+    <string name="dyscalculia_what_is_01">Discocclusion encompasses a specific violation of arithmetic skills that can not be explained by mental retardation or inadequate schooling.</string>
+    <string name="dyscalculia_what_is_02">The violation primarily affects the ability to perform the basic arithmetic, as well as more abstracts, including:</string>
+    <string name="dysgraphia_header">specific spelling disorder</string>
+    <string name="dysgraphia_what_is_01">The main symptom of this disorder is a specific and significant disruption in the development of spelling skills in the absence of a specific reading disorder that can not be explained by the child\'s low mental age with problems in the severity of vision or inadequate schooling.</string>
+    <string name="dysgraphia_what_is_02">Discription affects both the ability to pronounce the letters in the word and the proper spelling of words.</string>
+    <string name="dysgraphia_what_is_03">" Dysgraphy may appear as:"</string>
+    <string name="dyslexia_questions_intro">"The questionnaire below refers to the way the child learns and processes information and is created to help undetect the potential problem.\nThis is not a diagnosis\nIn case of learning difficulties always consult the teacher and the child's pediatrician to make sure that the problem is not in the teaching method or because of health problems such as hearing or vision impairment.\nAlways consult a specialist to make a deeper analysis instead of diagnosing yourself! "</string>
+    <string name="child_name_form">"Child's Name"</string>
+    <string name="name_disclaimer">Note: The child\'s name is used only for convenience when completing the test. We do not save or use the names in any way. If you do not want to use real names, it will not affect the test.</string>
+    <string name="dyslexia_question_one">Everyday ___ is interested and clear minded:</string>
+    <string name="dyslexia_question_two">___ is wholly devoted to games:</string>
+    <string name="answer_directions_yes">Yes</string>
+    <string name="answer_directions_no">No</string>
+    <string name="questions">Questions</string>
+    <string name="dyslexia_question_three">___ is stolen, truncated from reality:</string>
+    <string name="dyslexia_question_four">___ has a particular or unnatural body value:</string>
+    <string name="send_as_email_checkbox">I want to send the result as an email</string>
+    <string name="add_resources_to_email_checkbox">I want to add a resource list to the text of the email</string>
+    <string name="get_score_button">Score</string>
+    <string name="score_string">Score: %1$d</string>
+    <string name="save_name_button">Save</string>
+    <string name="child_name_hint">Name of the Child/Nickname</string>
+    <string name="dyslexia_question_one_update2">is wholly devoted to games:</string>
+    <string name="dyslexia_question_one_update1">Everyday</string>
+    <string name="dyslexia_question_two_update2">is interested and clear minded:</string>
+    <string name="dyslexia_question_three_update2">is stolen, truncated from reality:</string>
+    <string name="dyslexia_question_four_update2">has a particular or unnatural body value:</string>
+    <string name="result_message">. If the score is higher than 5 we advise you to consult with a specialist, but don\'t forget to contact the teacher of the child first</string>
+    <string name="additional_info_email"><a href="https://goo.gl/F2Q9xU">What is dyslexia and how to know it</a>\n<a href="https://goo.gl/sEFQm8">Study strategies for children with dyslexia</a>\nDo not forget, that this test is not a diagnosis. Always contact the child\'s teacher, doctor and a specialist before you've accepted, that your child has dyslexia.</string>
+
+</resources>
