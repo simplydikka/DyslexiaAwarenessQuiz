@@ -28,8 +28,9 @@ public class DyslexiaTestActivity extends Activity {
     RadioButton radioButtonFourYes, radioButtonFourNo;
     Button submit;
     int score = 0;
-    CheckBox sentEmail = (CheckBox) findViewById(R.id.send_to_email);
-    CheckBox addDetails = (CheckBox) findViewById(R.id.add_additional_resources);
+    String summaryMessage;
+    String value;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -145,10 +146,6 @@ public class DyslexiaTestActivity extends Activity {
         childName = (EditText) findViewById(R.id.name_input);
         savedName = childName.getText().toString();
         String summaryMessage = getString(R.string.score_string, score);
-
-        if (addDetails.isChecked()) {
-            summaryMessage += getString(R.string.additional_info_email);
-        }
         return summaryMessage;
     }
 
@@ -168,18 +165,19 @@ public class DyslexiaTestActivity extends Activity {
      * @param view
      */
     public void showScore(View view) {
-
+        CheckBox sentEmail = (CheckBox) findViewById(R.id.send_to_email);
         if (sentEmail.isChecked()) {
 
             Intent intent = new Intent(Intent.ACTION_SENDTO);
             intent.setData(Uri.parse("mailto:")); // only email apps should handle this
             intent.putExtra(Intent.EXTRA_EMAIL, "diddeto@gmail.com");
-            intent.putExtra(Intent.EXTRA_SUBJECT, "Резултат от тест за " + "Име");
-            intent.putExtra(Intent.EXTRA_TEXT, updateScoreMessage());
+            intent.putExtra(Intent.EXTRA_SUBJECT, "Резултат от тест за " + value);
+            intent.putExtra(Intent.EXTRA_TEXT, updateScoreMessage() + "В случай, че резултатът е по-голям от 5, се консултирайте със специалист. Винаги първо се свържете с педиатър и учителя на детето, за да проверите дали няма други възможни проблеми! Никога не поставяйте диагноза сами!");
             if (intent.resolveActivity(getPackageManager()) != null) {
                 startActivity(intent);
 
             }
+
 
         } else {
             Toast.makeText(this, updateScoreMessage(),
